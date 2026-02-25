@@ -77,7 +77,7 @@ The cabinet separates low-voltage logic from high-voltage power circuits for saf
 
 ## 3. Smoke Generator
 
-The smoke generator is a robust smoke generator for cold smoking that produces a steady flow of clean smoke.
+The smoke generator is a robust cold smoking device that produces a steady flow of clean smoke.
 It burns smoking chips in a small combustion chamber, and the resulting smoke is actively extracted by a ventilation unit and pushed into the smoker. 
 Its design also removes tar from the smoke, ensuring only clean, cool smoke enters the smoking chamber.
 This solution alow also long cold smoking. 
