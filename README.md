@@ -8,11 +8,12 @@ This project provides a complete solution for building a smart smokehouse includ
 - Smoke generation control
 - Meat temperature monitoring
 - Heating element regulation
-- Ventilation control
 - Hardware wiring documentation
 - Home Assistant integration
 
-The goal is to create a stable, automated and expandable smokehouse control system with full remote monitoring and automation capabilities.
+The goal is to create a stable, automated smokehouse control system with full remote monitoring and automation capabilities. 
+To ensure stable enviromet with minimum user intereference for precice meat smoking. 
+
 
 ---
 
@@ -29,6 +30,7 @@ Smart Smokehouse is designed as a modular system consisting of:
 - Hardware documentation
 
 The system is designed for DIY builders who want professional-level control over their smoking process.
+You can build your own Smokehouse from scratch or just use modules to upgrade you curent solution. 
 
 ---
 
@@ -40,16 +42,18 @@ Features:
 - Internal air temperature monitoring (DS18B20)
 - Multiple meat probes (MAX31865 PT100/PT1000)
 - Controlled heating element
-- Air circulation fan
-- Controlled smoke inlet
+- Air circulation fan -TBD
+- Controlled smoke generator
 
-The chamber is designed to maintain stable temperature and humidity conditions.
+The chamber is designed to maintain stable temperature and smoke delivery.
 
 ---
 
-## 2. Control Cabinet
+## 2. BRAIN - Control unit
 
-The control cabinet contains the electronics and power control components.
+Brain of whole system is based on ESP32. Complex eletrical box containtig all nessesary component to mesure and controle. 
+LCD for control of temperature and times. Actual smoking status - Temperature, time, heating status.  
+
 
 Main components:
 - ESP32 microcontroller
@@ -62,7 +66,6 @@ Main components:
 
 Responsibilities:
 - Heating element control
-- Fan control
 - Smoke generator control
 - Safety monitoring
 - User interface handling
@@ -74,7 +77,10 @@ The cabinet separates low-voltage logic from high-voltage power circuits for saf
 
 ## 3. Smoke Generator
 
-The smoke generator produces controlled smoke flow into the chamber.
+The smoke generator is a robust smoke generator for cold smoking that produces a steady flow of clean smoke.
+It burns smoking chips in a small combustion chamber, and the resulting smoke is actively extracted by a ventilation unit and pushed into the smoker. 
+Its design also removes tar from the smoke, ensuring only clean, cool smoke enters the smoking chamber.
+This solution alow also long cold smoking. 
 
 Possible implementation:
 - External smoke box
